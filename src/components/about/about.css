@@ -86,7 +86,7 @@ h2{
     }
 }
 
-@media screen and (max-width:370px)  {
+@media screen and (max-width:400px)  {
 .btns{
     margin-left: 30%;
 }.about__me{
