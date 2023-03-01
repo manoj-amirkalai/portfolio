@@ -1,0 +1,72 @@
+#contacts > h2 {
+  margin-top: 5%;
+  color: aqua;
+  margin-bottom: -5%;
+}
+#contacts {
+  background-color: rgba(224, 238, 65, 0.511);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: -40% !important;
+  border-radius: 70px!important;background: rgba( 101, 195, 247, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.apps {
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  margin: -5% 0 0 40%;
+}
+.apps > a {
+  font-size: 40px;
+  margin-right: 100px;
+}
+.videos {
+  display: grid;
+  grid-template-rows: 30% 50%;
+  margin-left: 20%;
+  padding-bottom: -15px !important;
+}
+.videos > img {
+  width: 50%;
+  margin-left: -10%;
+}
+.apps > a:hover {
+  font-size: 50px;
+}
+@media screen and (max-width: 800px) {
+  .videos {
+    display: flex;
+    flex-direction: column;
+  }
+  .videos > img {
+    display: none;
+  }
+  #contacts {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 29px;
+    padding-bottom: 10%;
+  }
+  .apps {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  .apps > a {
+    font-size: 20px;
+    margin-left: -80px;
+    margin-bottom: 50%;
+  }
+  #contacts > h2 {
+    font-size: 30px;
+  }
+  .apps > a:hover {
+    font-size: 25px;
+  }
+}
