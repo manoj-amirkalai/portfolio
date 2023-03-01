@@ -1,10 +1,10 @@
 #contacts > h2 {
   margin-top: 5%;
-  color: aqua;
+  color: var(--color-white);;
   margin-bottom: -5%;
 }
 #contacts {
-  background-color: rgba(224, 238, 65, 0.511);
+  color: var(--color-white);
   width: 50%;
   margin-left: 25%;
   margin-top: 5%;

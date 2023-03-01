@@ -14,19 +14,19 @@ const Contact = () => {
       <div className="videos">
         <img src={contact} alt="contact"/>
         <div className="apps">
-        <a href="https://wa.me/qr/CWYH77IQQSYQK1">
+        <a href="https://wa.me/qr/CWYH77IQQSYQK1" target="_pop">
            <SiWhatsapp />
           </a>
-          <a href="https://github.com/ManojAmirKalai">
+          <a href="https://github.com/ManojAmirKalai" target="_pop">
            <VscGithubAlt />
           </a>
-          <a href="https://www.linkedin.com/in/manoj-amirthalingam-6a5394220?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5wGv0J8%2FTHS%2FNg7QIfSlpQ%3D%3D">
+          <a href="https://www.linkedin.com/in/manoj-amirthalingam-6a5394220?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5wGv0J8%2FTHS%2FNg7QIfSlpQ%3D%3D" target="_pop">
             <SlSocialLinkedin />
           </a>
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvmXxjFvMRjHJZKNptvFLJDQJWrDFSWfcKSHVmKDWvBvTHzhxcGlpnHHpMgFFZjLJCmrZg">
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvmXxjFvMRjHJZKNptvFLJDQJWrDFSWfcKSHVmKDWvBvTHzhxcGlpnHHpMgFFZjLJCmrZg" target="_pop">
            <SiGmail />
           </a>
-          <a href="https://www.instagram.com/am__rare_one/">
+          <a href="https://www.instagram.com/am__rare_one/" target="_pop">
            <TfiInstagram />
           </a>
         </div>
