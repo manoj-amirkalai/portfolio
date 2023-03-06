@@ -65,6 +65,7 @@ h2{
 }.btns:hover{
     background-color: var(--color-white);
     opacity: 2px;
+    color: var(--color-primary);
 }
 
 @media screen and (max-width:1000px)  {

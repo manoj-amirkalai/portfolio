@@ -33,7 +33,7 @@ const About = () => {
             applications. Experienced in building multi-platform websites using
             Responsive Web Design/RWD.{" "}
           </p>
-          <div className="btns">Lets's talk</div>
+          <a href="#contacts" className="btns">Lets's talk</a>
         </div>
       </div>
     </div>

@@ -18,9 +18,9 @@ const Experience = () => {
           <p><FaFileCode className="icons"/>Javascript</p>
           <p><FaFileCode className="icons"/>React.js</p>
           <p><FaFileCode className="icons"/>Python</p>
-          <p><FaFileCode className="icons"/>Java</p>
-          <p><FaFileCode className="icons"/>C</p>
-          <p><FaFileCode className="icons"/>C++</p></div>
+          <p><FaFileCode className="icons"/>Node.js</p>
+          <p><FaFileCode className="icons"/>MongoDB</p>
+          <p><FaFileCode className="icons"/>Express.js</p></div>
         </div>
       </div>
     </div>
